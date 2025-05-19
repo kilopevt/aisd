@@ -1,3 +1,6 @@
+
+
+
 #include <iostream>
 #include <vector>
 #include <chrono>
@@ -181,9 +184,9 @@ public:
 	}
 };
 
-//Вариант 4: для заданного std::vector<int> верните новый std::vector<int>, 
-//содержащий все неповторяющиеся элементы (для вектора {3 2 2 4 2} результат 
-//должен быть {3 4} )
+//Р’Р°СЂРёР°РЅС‚ 4: РґР»СЏ Р·Р°РґР°РЅРЅРѕРіРѕ std::vector<int> РІРµСЂРЅРёС‚Рµ РЅРѕРІС‹Р№ std::vector<int>, 
+//СЃРѕРґРµСЂР¶Р°С‰РёР№ РІСЃРµ РЅРµРїРѕРІС‚РѕСЂСЏСЋС‰РёРµСЃСЏ СЌР»РµРјРµРЅС‚С‹ (РґР»СЏ РІРµРєС‚РѕСЂР° {3 2 2 4 2} СЂРµР·СѓР»СЊС‚Р°С‚ 
+//РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ {3 4} )
 
 vector<int> getUniqueElements(const vector<int>& vec) {
 	BinaryTree tree;
@@ -316,7 +319,7 @@ int main() {
 	 9<--+-->16					+-->47		 +-->84
 			 |
 		 15<-+
-	*/
+	*/ 
 
 	//test assignment operator
 	BinaryTree tree1 = tree;
@@ -382,3 +385,5 @@ int main() {
 
 	return 0;
 }
+
+
